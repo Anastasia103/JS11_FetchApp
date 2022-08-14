@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Battler</title>
+</head>
+<body>
+    <button id="first" onclick="showPokemon1()">New Pokemon Matchup</button>
+    <button id= "second" onclick="battlePokemon()">Battle Pokemon</button>
+    <div>
+        <ul id='one-user'>Charizard</ul>
+        <img id="pic1">
+        <p id = "Level1Pokemon">1</p>
+        <ul id='two-user'>Blastoise</ul>
+        <p id = "Level2Pokemon">1</p>
+        <img id="pic2">
+        <ul id='winner'> Who is Stronger?</ul>
+      </div>
+    <script src="https://unpkg.com/pokeapi-js-wrapper/dist/index.js"></script>
+    <script>
+        const P = new Pokedex.Pokedex()
+    </script>
+    <script src="./main.js"></script>
+</body>
+</html>

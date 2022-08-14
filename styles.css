@@ -1,0 +1,78 @@
+button {
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: rgb(180, 110, 110);
+    font-size: 28px;
+}
+#first{
+    margin: 20px 90px;
+}
+#second{
+    margin: 20px 190px;
+}
+#two-user {
+    grid-area:  1/ 2 / span 1/ span 1;
+    font-size: 28px;
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0px;
+    padding-top: 54px;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+#Level1Pokemon {
+    grid-area:  1/ 3 / span 1/ span 1;
+    padding-left: 37px;
+    padding-top: 26px;
+    padding-bottom: 0px;
+    font-size: 28px;
+    font-family: DejaVu Sans Mono, monospace;
+}
+#pic1 {
+    grid-area:  3/ 2 / span 1/ span 1;
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#one-user {
+    grid-area:  3/ 5 / span 1/ span 1;
+    font-size: 28px;
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0px;
+    padding-top: 12px;
+    padding-right: 35px;
+    padding-left: 0px;
+}
+#Level2Pokemon {
+    grid-area:  3/ 6 / span 1/ span 1;
+    font-size: 28px;
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+#pic2 {
+    grid-area:  2/ 5 / span 1/ span 1;
+    object-fit: cover;
+    width: 110px;
+    height: 90px;
+    margin-left: 54px;
+}
+#winner {
+    grid-area:  4/ 2 / span 1/ span 3;
+    font-size: 30px;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+div {
+    background-image: url(pokemon-battle2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    grid-template-columns: 12% 21% 12% auto 25% 12%;
+    grid-template-rows: 25% 20% 25% 30%;
+    width: 95vh;
+    height: 50vh;
+    margin: 5vh 10vh;
+}
